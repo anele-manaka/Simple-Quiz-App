@@ -52,10 +52,28 @@ body.incorrect {
     border: 1px solid hsl(var(--hue), 100%, 30%);
     border-radius: 10px;
     padding: 10px, 20px;
-    color: rgb(38, 8, 58);
+    color: rgb(8, 7, 7);
     outline: none;
 }
 
 .btn:hover {
     border-color: black;
+}
+
+.btn.incorrect {
+    --hue: var(--hue-incorrect);
+}
+
+.btn.correct {
+    --hue: var(--hue-correct);
+}
+
+.start-btn, .next-btn {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 8px 16px;
+    background-color: rgb(123, 80, 163);
+    color: rgb(212, 211, 203);
+    border: darkmagenta;
+    
 }
