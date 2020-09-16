@@ -1,0 +1,61 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+
+:root {
+    --hue-neutral: 300;
+    --hue-incorrect: 0;
+    --hue-correct: 100;
+    --hue-buttons: 1000;
+}
+
+body {
+    --hue: var(--hue-neutral);
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: hsl(var(--hue), 100%, 20%);
+}
+
+body.correct {
+    --hue: var(--hue-correct);
+}
+
+body.incorrect {
+    --hue: var(--hue-incorrect);
+}
+
+.container {
+    width: 800px;
+    max-width: 80%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 20px 3px;
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto) ;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.btn {
+    --hue: var(--hue-buttons);
+    background-color: hsl(var(--hue), 100%, 50%);
+    border: 1px solid hsl(var(--hue), 100%, 30%);
+    border-radius: 10px;
+    padding: 10px, 20px;
+    color: rgb(38, 8, 58);
+    outline: none;
+}
+
+.btn:hover {
+    border-color: black;
+}
