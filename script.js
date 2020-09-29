@@ -107,5 +107,28 @@ const questions = [
             {text: 'Finance', correct: true},
             {text: '32', correct: false}
         ]
+    },
+    {
+        question: "Where am I based?",
+        answers: [
+            {text: 'Finance', correct: true},
+            {text: '32', correct: false}
+        ]
+    },
+    {
+        question: "What is an apple?",
+        answers: [
+            {text: 'Finance', correct: true},
+            {text: '32', correct: false},
+            {text: '32', correct: false},
+            {text: '32', correct: false}
+        ]
+    },
+    {
+        question: "What is your name?",
+        answers: [
+            {text: 'Finance', correct: true},
+            {text: '32', correct: false}
+        ]
     }
 ]
