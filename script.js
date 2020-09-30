@@ -149,7 +149,7 @@ const questions = [
             {text: 'Complacent', correct: false},
             {text: 'Analytical', correct: true},
             {text: 'Artistic', correct: false},
-            {text: 'Emotive', correct: true}
+            {text: 'Emotive', correct: false}
         ]
     },
     {
