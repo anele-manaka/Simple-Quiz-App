@@ -81,54 +81,84 @@ function clearStatusClass(element) {
 
 const questions = [
     {
-        question: "What is 2 + 2?",
-        answers: [
-            {text: '4', correct: true},
-            {text: '32', correct: false}
-        ]
-    },
-    {
-        question: "What is 5 + 2?",
-        answers: [
-            {text: '7', correct: true},
-            {text: '32', correct: false}
-        ]
-    },
-    {
         question: "What is my name?",
         answers: [
             {text: 'Anele', correct: true},
-            {text: '32', correct: false}
+            {text: 'Zanele', correct: false},
+            {text: 'Nkateko', correct: false},
+            {text: 'Anne', correct: false}
+        ]
+    },
+    {
+        question: "Where was I born?",
+        answers: [
+            {text: 'Pretoria', correct: false},
+            {text: 'Pietersburg', correct: false},
+            {text: 'Mafikeng', correct: true},
+            {text: 'Durban', correct: false}
+        ]
+    },
+    {
+        question: "What is my star sign?",
+        answers: [
+            {text: 'Taurus', correct: false},
+            {text: 'Sagitarius', correct: true},
+            {text: 'Aquarius', correct: false},
+            {text: 'Scorpio', correct: false}
         ]
     },
     {
         question: "What is my major?",
         answers: [
-            {text: 'Finance', correct: true},
-            {text: '32', correct: false}
+            {text: 'Politics', correct: false},
+            {text: 'Computer Science', correct: false},
+            {text: 'Law', correct: false},
+            {text: 'Finance', correct: true}
         ]
     },
     {
-        question: "Where am I based?",
+        question: "How old am I?",
         answers: [
-            {text: 'Finance', correct: true},
-            {text: '32', correct: false}
+            {text: '25', correct: false},
+            {text: '20', correct: true},
+            {text: '17', correct: false},
+            {text: '19', correct: false}
         ]
     },
     {
-        question: "What is an apple?",
+        question: "What are my interests?",
         answers: [
-            {text: 'Finance', correct: true},
-            {text: '32', correct: false},
-            {text: '32', correct: false},
-            {text: '32', correct: false}
+            {text: 'FinTech', correct: true},
+            {text: 'Asset/Portfolio Management', correct: true},
+            {text: 'Analytics', correct: true},
+            {text: 'Organisational Psychology', correct: true}
         ]
     },
     {
-        question: "What is your name?",
+        question: "What are some of my hobbies?",
         answers: [
-            {text: 'Finance', correct: true},
-            {text: '32', correct: false}
+            {text: 'Literature', correct: true},
+            {text: 'Beauty & Health', correct: true},
+            {text: 'Public Speaking', correct: true},
+            {text: 'Softball', correct: true}
         ]
-    }
+    },
+    {
+        question: "Which statements most accurately describe me?",
+        answers: [
+            {text: 'Complacent', correct: false},
+            {text: 'Analytical', correct: true},
+            {text: 'Artistic', correct: false},
+            {text: 'Emotive', correct: true}
+        ]
+    },
+    {
+        question: "What is my personality type?",
+        answers: [
+            {text: 'Architect: INTJ-A/ INTJ-T', correct: false},
+            {text: 'Logician: INTP-A/ INTP-T', correct: true},
+            {text: 'Commander: ENTJ-A/ ENTJ-T', correct: false},
+            {text: 'Debater: ENTP-A/ ENTP-T', correct: false}
+        ]
+    },
 ]
