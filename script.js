@@ -122,7 +122,7 @@ const questions = [
             {text: '25', correct: false},
             {text: '20', correct: true},
             {text: '17', correct: false},
-            {text: '19', correct: false}
+            {text: '22', correct: false}
         ]
     },
     {
